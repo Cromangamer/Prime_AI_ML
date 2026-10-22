@@ -23,4 +23,20 @@ print(dict['age'])
 dict.pop('age')
 print(dict)
 
-# copy 
+# get all keys
+print(dict.keys())
+
+# get all values
+print(dict.values())
+
+# get all key-value pairs
+print(dict.items())
+
+
+def get_student_info(student_dict):
+    # this function are made for showing excution flow
+    # print("Student name is: ", student_dict['name1']) # this throws error and stops the execution of the program
+    # but this code will not stop the Execution
+    print("Student subject is: ", student_dict.get('subject1')) # this will return None if key is not found
+
+get_student_info(dict)
