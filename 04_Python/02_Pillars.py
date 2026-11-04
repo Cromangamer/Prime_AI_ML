@@ -12,6 +12,11 @@
     # 2. Protected: can be accessed within the class and its subclasses
     # 3. Private: can be accessed only within the class
 
+# 2. Abstraction
+    # Hiding internal details & showing only essential features
+
+    # Abstraction is basically classes like blueprint for other classes
+
 # 3. Inheritance
     # Inheritance is a mechanism in which one class acquires the property of another class.
 
@@ -20,3 +25,5 @@
     # 2. Multiple Inheritance: A class inherits from multiple superclasses.
     # 3. Multilevel Inheritance: A class inherits from a superclass, which in turn inherits from another superclass.
 
+# 4. Polymorphism
+    # Polymorphism is the ability to take many forms. In OOP, it refers
