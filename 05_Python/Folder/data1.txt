@@ -1,0 +1,7 @@
+this is a demo file of File I/O in python.
+Let's see Operations
+
+F.open()
+F.read()
+F.readline()
+F.write() {! Isuess: it will overwrite whole file.}
